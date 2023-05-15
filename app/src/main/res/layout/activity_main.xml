@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="198dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/textview_bg"
+        android:text="@string/clue"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cluein"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/textview1_bg"
+        android:ems="10"
+        android:hint="Enter clue"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/best_score"
+        android:layout_width="205dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/textview_bg"
+        android:text="@string/word1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra_bold"
+        android:text="@string/word"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#6CE5ED"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+
+    <TextView
+        android:id="@+id/Title12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra_bold"
+        android:text="@string/jumble"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#6CE5ED"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="140dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="628dp"
+        android:linksClickable="false"
+        android:onClick="sendMessage"
+        android:text="@string/start"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        app:cornerRadius="20dp"
+        app:icon="@android:drawable/ic_media_play"
+        app:iconGravity="end"
+        app:iconPadding="2dp"
+        app:iconTint="#FFEB3B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#FFEB3B"
+        app:strokeWidth="3dp" />
+
+    <EditText
+        android:id="@+id/wordin"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="316dp"
+        android:background="@drawable/textview1_bg"
+        android:ems="10"
+        android:hint="Enter word"
+        android:inputType="textCapCharacters"
+        android:maxLength="36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="352dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/crown" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

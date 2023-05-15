@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Word Jumble Final</string>
+    <string name="word">WORD</string>
+    <string name="clue">Clue</string>
+    <string name="start">Start</string>
+    <string name="word1">Word</string>
+    <string name="jumble">JUMBLE</string>
+    <string name="reset">Reset</string>
+    <string name="check">Check</string>
+</resources>
