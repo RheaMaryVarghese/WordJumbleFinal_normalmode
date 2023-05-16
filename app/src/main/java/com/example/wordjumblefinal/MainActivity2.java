@@ -102,7 +102,7 @@ public class MainActivity2 extends AppCompatActivity {
             button.setText(String.valueOf(letters.get(i % letters.size())));
             button.setTextSize(24);
             button.setAllCaps(true);
-            button.setBackgroundColor(Color.parseColor("#E4A6EF"));
+            button.setBackground(getResources().getDrawable(R.drawable.button_initialbg));
             button.setOnClickListener(new View.OnClickListener() {
                 private void setWorkings(CharSequence buttonText) {
 
@@ -123,8 +123,8 @@ public class MainActivity2 extends AppCompatActivity {
                     else{
                         mediaPlayer.start();
                         button.setTextColor(Color.parseColor("#ffffff"));
-                        button.setBackgroundColor(Color.parseColor("#6e4887"));
                         button.setEnabled(false);
+                        button.setBackground(getResources().getDrawable(R.drawable.button_bg));
                         //int buttonId = View.generateViewId();
                         //button.setId(buttonId);
                         click_ids.add(buttonId);
